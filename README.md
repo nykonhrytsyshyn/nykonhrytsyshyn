@@ -11,16 +11,16 @@
     I am self-taught and strive to explore everything that interests me, so you may encounter a lot of shit code
   </p>
   • • •<br><br>
+  <a href="https://nykon.me/linkedin">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=f5dee3&logoColor=363636&labelColor=ede9ff">
+      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=f5dee3&logoColor=d9e0ee&labelColor=302d41">
+    </picture>
+  </a>
   <a href="https://discord.whomine.net">
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=d5c3f0&logoColor=363636&labelColor=ede9ff">
       <img alt="WhoMine Discord" src="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=d5c3f0&logoColor=d9e0ee&labelColor=302d41">
-    </picture>
-  </a>
-  <a href="#">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My_Discord-p0loskun-black?style=for-the-badge&logo=discord&color=f5dee3&logoColor=363636&labelColor=ede9ff">
-      <img alt="Discord Username" src="https://img.shields.io/badge/My_Discord-p0loskun-black?style=for-the-badge&logo=discord&color=f5dee3&logoColor=d9e0ee&labelColor=302d41">
     </picture>
   </a>
   <br>
