@@ -11,16 +11,16 @@
     I am self-taught and strive to explore everything that interests me, so you may encounter a lot of shit code
   </p>
   • • •<br><br>
-  <a href="https://nykon.me/linkedin">
+    <a href="https://nykon.me/linkedin">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=f5dee3&logoColor=363636&labelColor=ede9ff">
-      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=f5dee3&logoColor=d9e0ee&labelColor=302d41">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=d5c3f0&labelColor=ede9ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzNjM2MzYiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==">
+      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=d5c3f0&labelColor=302d41&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNkOWUwZWUiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==">
     </picture>
   </a>
   <a href="https://discord.whomine.net">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=d5c3f0&logoColor=363636&labelColor=ede9ff">
-      <img alt="WhoMine Discord" src="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=d5c3f0&logoColor=d9e0ee&labelColor=302d41">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=f5dee3&logoColor=363636&labelColor=ede9ff">
+      <img alt="WhoMine Discord" src="https://img.shields.io/discord/928575868643733535?style=for-the-badge&label=WhoMine&logo=discord&color=f5dee3&logoColor=d9e0ee&labelColor=302d41">
     </picture>
   </a>
   <br>
