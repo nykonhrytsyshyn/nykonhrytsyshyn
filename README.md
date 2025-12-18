@@ -36,7 +36,7 @@
   <!-- WakaTime Badge -->
   <a href="https://nykon.me/wakatime">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=d5c3f0&logoColor=363636&labelColor=ede9ff" />
+      <source media="(prefers-color-scheme: light)" srcset="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=f5dee3&logoColor=363636&labelColor=ede9ff" />
       <img alt="WakaTime" src="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=f5dee3&logoColor=d9e0ee&labelColor=302d41" />
     </picture>
   </a>
@@ -79,7 +79,10 @@
       <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=c5c5c91e&color=9c8bb5&line=baa8d5&point=807ea5&hide_border=true&radius=20&hide_title=true" />
       <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=39363f1e&color=d5c3f0&line=d5c3f0&point=deddfa&hide_border=true&radius=20&hide_title=true" width="98.5%" />
     </picture>
-    <!-- Contribution grid -->
-    <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+    <!-- Contribution grid (Selfhosted) -->
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
+      <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+    </picture>
   </a>
 </div>
