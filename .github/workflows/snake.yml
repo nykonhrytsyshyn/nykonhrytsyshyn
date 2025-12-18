@@ -13,15 +13,16 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Generating svg
-        uses: Platane/snk@v3.2.0
+        uses: Platane/snk@v3.4.1
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/contr-grid-snake.svg?color_snake=#d5c3f0&color_dots=#39363f26,#51495c,#645a73,#726582,#837596
+            dist/contr-grid-snake-light.svg?color_snake=#d5c3f0&color_dots=#c5c5cf26,#c5b9d0,#b6a7c4,#9782ab,#806699
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Pushing svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4.0.0
+        uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
           target_branch: output
           build_dir: dist
