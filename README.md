@@ -5,11 +5,11 @@
          HEADER
   =====================
   -->
-  <!-- Header -->
+  <!-- Banner -->
   <a href="https://nykon.me">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=18&height=200&descSize=13&descAlignY=62&animation=fadeIn&section=header&text=Nykon&fontColor=5c5c68&fontAlignY=42&fontSize=60&desc=Software%20and%20Mechanical%20Engineer%20%E2%80%A2%20Open%20Source%20%E2%80%A2%20Social%20Media" />
-      <img alt="Header" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18&height=200&descSize=13&descAlignY=52&animation=fadeIn&section=header&text=Nykon&fontAlignY=32&fontSize=60&desc=Software%20and%20Mechanical%20Engineer%20%E2%80%A2%20Open%20Source%20%E2%80%A2%20Social%20Media" width="100%" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github_banner_light.svg" />
+      <img alt="Banner" src="./assets/banner/github_banner.svg" width="100%" />
     </picture>
   </a>
   <!-- Bio -->
