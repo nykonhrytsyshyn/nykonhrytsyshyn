@@ -31,7 +31,7 @@
     </linearGradient>
 
     <clipPath id="top-rounded-clip">
-      <path d="M 0 20 A 20 20 0 0 1 20 0 L 834 0 A 20 20 0 0 1 854 20 L 854 200 L 0 200 Z" />
+      <path d="M 0 15 A 15 15 0 0 1 15 0 L 839 0 A 15 15 0 0 1 854 15 L 854 200 L 0 200 Z" />
     </clipPath>
   </defs>
 
