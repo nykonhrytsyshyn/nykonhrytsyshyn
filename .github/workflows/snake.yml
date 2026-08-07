@@ -1,18 +1,36 @@
-name: Snake Animation
+# ============================================================================ #
+#                      Snake Animation Generation Workflow                     #
+# ============================================================================ #
+# This workflow generates a snake animation using the 'snk' action and pushes  #
+# the generated files to the output branch.                                    #
+#                                                                              #
+# Key Specifications:                                                          #
+#   - scheduled:     Runs every 12 hours at minute 0                           #
+#   - output branch: 'output'                                                  #
+#   - output files:  'dist/contr-grid-snake.svg'                               #
+#                    'dist/contr-grid-snake-light.svg'                         #
+#                                                                              #
+# GitHub Action: https://github.com/Platane/snk                                #
+# ============================================================================ #
+
+name: "Snake Animation"
 
 on:
-  schedule:
-    - cron: "0 */12 * * *" 
   workflow_dispatch:
   push:
     branches: [ "main" ]
-    
+  schedule:
+    # Runs every 12 hours at minute 0
+    - cron: "0 */12 * * *"
+
 jobs:
+  # Generate snake animation
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - name: Generating svg
+      - name: "Run: Generate snake animation"
         uses: Platane/snk@v3.4.1
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -21,10 +39,11 @@ jobs:
             dist/contr-grid-snake-light.svg?color_snake=#524162&color_dots=#c5c5cf26,#c5b9d0,#b6a7c4,#9782ab,#806699
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Pushing svg to the output branch
+
+      - name: "Run: Push generated files to 'output' branch"
         uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: "output"
+          build_dir: "dist"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
