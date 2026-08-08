@@ -48,27 +48,29 @@
   </a>
 </div>
 
-<br /><br />
+<br />
 
-<a href="#js-contribution-activity">
-  <!-- Total Statistics (Self-hosted) -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=363636&border_color=dbe3eab3&show_icons=true&border_radius=15&bg_color=c5c5c91e&title_color=363636&hide_title=true&line_height=28" />
-    <img alt="Total Stats" src="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=fff&border_color=3d444d78&show_icons=true&theme=dark&border_radius=15&bg_color=39363f1e&title_color=fff&hide_title=true&line_height=28" width="49%" />
-  </picture>
-  <!-- Streak Statistics -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&border=dbe3eab3&border_radius=15&ring=363636&fire=363636&currStreakNum=363636&stroke=363636&sideNums=363636&currStreakLabel=363636&background=c5c5c91e" />
-    <img alt="Streak Stats" src="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&theme=dark&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=39363f1e" width="49%" />
-  </picture>
-  <!-- Activity Graph -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=c5c5c91e&color=363636&line=646464&point=363636&border_color=d1d9e0b3&radius=20&hide_title=true" />
-    <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=39363f1e&color=fff&line=d9d9d9&point=fff&border_color=3d444db3&radius=20&hide_title=true" width="98.5%" />
-  </picture>
-  <!-- Contribution grid (Self-hosted) -->
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
-    <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
-  </picture>
-</a>
+<div align="center">
+  <a href="#js-contribution-activity">
+    <!-- Total Statistics (Self-hosted) -->
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=363636&border_color=dbe3eab3&show_icons=true&border_radius=15&bg_color=c5c5c91e&title_color=363636&hide_title=true&line_height=28" />
+      <img alt="Total Stats" src="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=fff&border_color=3d444d78&show_icons=true&theme=dark&border_radius=15&bg_color=39363f1e&title_color=fff&hide_title=true&line_height=28" width="49%" />
+    </picture>
+    <!-- Streak Statistics -->
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&border=dbe3eab3&border_radius=15&ring=363636&fire=363636&currStreakNum=363636&stroke=363636&sideNums=363636&currStreakLabel=363636&background=c5c5c91e" />
+      <img alt="Streak Stats" src="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&theme=dark&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=39363f1e" width="49%" />
+    </picture>
+    <!-- Activity Graph -->
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=c5c5c91e&color=363636&line=646464&point=363636&border_color=d1d9e0b3&radius=20&hide_title=true" />
+      <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=39363f1e&color=fff&line=d9d9d9&point=fff&border_color=3d444db3&radius=20&hide_title=true" width="98.5%" />
+    </picture>
+    <!-- Contribution grid (Self-hosted) -->
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
+      <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+    </picture>
+  </a>
+</div>
