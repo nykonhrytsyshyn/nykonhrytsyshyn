@@ -1,10 +1,6 @@
-<!--suppress HtmlDeprecatedAttribute -->
+<!--suppress HtmlDeprecatedAttribute, HtmlUnknownTarget, HtmlUnknownAnchorTarget -->
+
 <div align="center">
-  <!--
-  =====================
-         HEADER
-  =====================
-  -->
   <!-- Banner -->
   <a href="https://nykon.me">
     <picture>
@@ -18,66 +14,61 @@
     Paying attention to the details that make things feel right.
   </p>
   • • •<br /><br />
-  <!--
-  =====================
-         BADGES
-  =====================
-  -->
+</div>
+
+<div align="center">
   <!-- LinkedIn Badge -->
   <a href="https://nykon.me/linkedin">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=d5c3f0&labelColor=ede9ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzNjM2MzYiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==" />
-      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=d5c3f0&labelColor=302d41&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNkOWUwZWUiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==" />
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==" />
+      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==" />
     </picture>
   </a>
   <!-- WakaTime Badge -->
   <a href="https://nykon.me/wakatime">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=f5dee3&logoColor=363636&labelColor=ede9ff" />
-      <img alt="WakaTime" src="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=f5dee3&logoColor=d9e0ee&labelColor=302d41" />
+      <source media="(prefers-color-scheme: light)" srcset="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff" />
+      <img alt="WakaTime" src="https://wakatime.com/badge/user/da911578-a67d-4dde-9220-e2f9121f2a68.svg?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff" />
     </picture>
   </a>
   <br />
   <!-- Telegram Badge -->
   <a href="https://nykon.me/telegram">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=d5c3f0&logoColor=363636&labelColor=ede9ff" />
-      <img alt="Telegram Channel" src="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=d5c3f0&logoColor=d9e0ee&labelColor=302d41" />
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff" />
+      <img alt="Telegram Channel" src="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff" />
     </picture>
   </a>
   <!-- Profile Views Badge -->
   <a href="https://hits.sh/github.com/nykonhrytsyshyn/">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/nykonhrytsyshyn.svg?style=for-the-badge&label=Views&logo=github&color=f5dee3&logoColor=363636&labelColor=ede9ff" />
-      <img alt="Profile Views" src="https://hits.sh/github.com/nykonhrytsyshyn.svg?style=for-the-badge&label=Views&logo=github&color=f5dee3&labelColor=302d41" />
-    </picture>
-  </a>
-  <br /><br />
-  <!--
-  =====================
-        STATISTIC
-  =====================
-  -->
-  <a href="#js-contribution-activity">
-    <!-- Total Statistics (Selfhosted) -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=baa8d5&hide_border=true&show_icons=true&border_radius=15&bg_color=c5c5c91e&title_color=baa8d5&hide_title=true&line_height=28" />
-      <img alt="Total Stats" src="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=d5c3f0&hide_border=true&show_icons=true&theme=dark&border_radius=15&bg_color=39363f1e&title_color=d5c3f0&hide_title=true&line_height=28" width="49%" />
-    </picture>
-    <!-- Streak Statistics -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&hide_border=true&border_radius=15&ring=baa8d5&fire=baa8d5&currStreakNum=bda3e4&stroke=baa8d5&sideNums=baa8d5&currStreakLabel=bda3e4&background=c5c5c91e" />
-      <img alt="Streak Stats" src="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&theme=dark&hide_border=true&border_radius=15&ring=d5c3f0&fire=d5c3f0&currStreakNum=d5c3d0&stroke=d5c3f0&sideNums=d5c3f0&currStreakLabel=d5c3f0&background=39363f1e" width="49%" />
-    </picture>
-    <!-- Activity Graph -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=c5c5c91e&color=9c8bb5&line=baa8d5&point=807ea5&hide_border=true&radius=20&hide_title=true" />
-      <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=39363f1e&color=d5c3f0&line=d5c3f0&point=deddfa&hide_border=true&radius=20&hide_title=true" width="98.5%" />
-    </picture>
-    <!-- Contribution grid (Selfhosted) -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
-      <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+      <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/nykonhrytsyshyn.svg?style=for-the-badge&label=Views&color=151b23&labelColor=262c36&logo=github" />
+      <img alt="Profile Views" src="https://hits.sh/github.com/nykonhrytsyshyn.svg?style=for-the-badge&label=Views&color=151b23&labelColor=262c36&logo=github" />
     </picture>
   </a>
 </div>
+
+<br /><br />
+
+<a href="#js-contribution-activity">
+  <!-- Total Statistics (Self-hosted) -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=fff&border_color=3d444d78&show_icons=true&border_radius=15&bg_color=c5c5c91e&title_color=fff&hide_title=true&line_height=28" />
+    <img alt="Total Stats" src="https://github-readme-stats-gamma-neon.vercel.app/api?username=nykonhrytsyshyn&count_private=true&icon_color=fff&border_color=3d444d78&show_icons=true&theme=dark&border_radius=15&bg_color=39363f1e&title_color=fff&hide_title=true&line_height=28" width="49%" />
+  </picture>
+  <!-- Streak Statistics -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=c5c5c91e" />
+    <img alt="Streak Stats" src="https://github-readme-streak-stats-eight.vercel.app/?user=nykonhrytsyshyn&theme=dark&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=39363f1e" width="49%" />
+  </picture>
+  <!-- Activity Graph -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=c5c5c91e&color=fff&line=d9d9d9&point=fff&border_color=3d444db3&radius=20&hide_title=true" />
+    <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=nykonhrytsyshyn&bg_color=39363f1e&color=fff&line=d9d9d9&point=fff&border_color=3d444db3&radius=20&hide_title=true" width="98.5%" />
+  </picture>
+  <!-- Contribution grid (Self-hosted) -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
+    <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+  </picture>
+</a>

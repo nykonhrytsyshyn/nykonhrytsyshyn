@@ -35,8 +35,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/contr-grid-snake.svg?color_snake=#d5c3f0&color_dots=#39363f26,#51495c,#645a73,#726582,#837596
-            dist/contr-grid-snake-light.svg?color_snake=#524162&color_dots=#c5c5cf26,#c5b9d0,#b6a7c4,#9782ab,#806699
+            dist/contr-grid-snake.svg?color_snake=#ffffff&color_dots=#161b22,#30363d,#6e7681,#8b949e,#f0f6fc
+            dist/contr-grid-snake-light.svg?color_snake=#000000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
