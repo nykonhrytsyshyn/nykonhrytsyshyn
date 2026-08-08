@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="854" height="200" viewBox="0 0 854 200">
   <style>
     .text {
-      fill: #5c5c68;
+      fill: #262626;
       font-size: 60px;
       font-weight: 700;
       font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     }
 
     .desc {
-      fill: #5c5c68;
+      fill: #363636;
       font-size: 13px;
       font-weight: 500;
       font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
@@ -26,8 +26,8 @@
 
   <defs>
     <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9796f0"/>
-      <stop offset="100%" stop-color="#fbc7d4"/>
+      <stop offset="0%" stop-color="#f0f6fc"/>
+      <stop offset="100%" stop-color="#d8dde2"/>
     </linearGradient>
   </defs>
 
