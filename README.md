@@ -48,7 +48,12 @@
   </a>
 </div>
 
-<br />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/info_columns_light.svg" />
+    <img alt="Info" src="./assets/profile/info_columns.svg" width="100%" />
+  </picture>
+</div>
 
 <div align="center">
   <a href="#js-contribution-activity">
