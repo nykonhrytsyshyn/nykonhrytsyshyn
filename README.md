@@ -81,10 +81,8 @@
 </div>
 
 <div align="center">
-  <a href="https://nykon.me/linkedin">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack_light.svg" />
-      <img alt="Tech Stack" src="./assets/profile/stack.svg" width="100%" />
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack_light.svg" />
+    <img alt="Tech Stack" src="./assets/profile/stack.svg" width="100%" />
+  </picture>
 </div>
