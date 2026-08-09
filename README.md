@@ -4,8 +4,8 @@
   <!-- Banner -->
   <a href="https://nykon.me">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github_banner_light.svg" />
-      <img alt="Banner" src="./assets/banner/github_banner.svg" width="100%" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/banner_light.svg" />
+      <img alt="Banner" src="./assets/profile/banner.svg" width="100%" />
     </picture>
   </a>
   <!-- Bio -->
@@ -71,6 +71,15 @@
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake-light.svg" />
       <img alt="Snake contribution grid" src="https://raw.githubusercontent.com/nykonhrytsyshyn/nykonhrytsyshyn/output/contr-grid-snake.svg" width="100%" />
+    </picture>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://nykon.me/linkedin">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack_light.svg" />
+      <img alt="Tech Stack" src="./assets/profile/stack.svg" width="100%" />
     </picture>
   </a>
 </div>
