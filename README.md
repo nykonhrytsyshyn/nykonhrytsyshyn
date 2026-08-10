@@ -17,11 +17,11 @@
 </div>
 
 <div align="center">
-  <!-- LinkedIn Badge -->
-  <a href="https://nykon.me/linkedin">
+  <!-- Followers Badge -->
+  <a href="?tab=followers">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=d8dde2&labelColor=606264&logoColor=fff&logo=inspire" />
-      <img alt="LinkedIn Profile" src="https://img.shields.io/badge/LinkedIn-Profile-black?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCA5My4xIDkzLjEiPjxwYXRoIGQ9Ik0xMS4yIDBhMTEuMiAxMS4yIDAgMSAwIDAgMjIuNCAxMS4yIDExLjIgMCAwIDAgMC0yMi4zTTEuNSAzMC45aDE5LjNWOTNIMS41ek03MCAyOS40Yy05LjUgMC0xNS43IDUuMS0xOC4zIDEwaC0uM1YzMUgzM3Y2MmgxOS4zVjYyLjRjMC04LjEgMS41LTE2IDExLjYtMTYgOS45IDAgMTAgOS4zIDEwIDE2LjVWOTNIOTNWNTljMC0xNi44LTMuNi0yOS42LTIzLjItMjkuNiIvPjwvc3ZnPg==" />
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=d8dde2&labelColor=606264&logoColor=fff&logo=githubsponsors" />
+      <img alt="Followers" src="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=githubsponsors" />
     </picture>
   </a>
   <!-- WakaTime Badge -->
@@ -32,13 +32,11 @@
     </picture>
   </a>
   <br />
-  <!-- Telegram Badge -->
-  <a href="https://nykon.me/telegram">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=d8dde2&labelColor=606264&logoColor=fff" />
-      <img alt="Telegram Channel" src="https://img.shields.io/badge/telegram-black?logo=Telegram&style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff" />
-    </picture>
-  </a>
+  <!-- Stars Badge -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/nykonhrytsyshyn?style=for-the-badge&color=d8dde2&labelColor=606264&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVptMCAyLjQ0NUw2LjYxNSA1LjVhLjc1Ljc1IDAgMCAxLS41NjQuNDFsLTMuMDk3LjQ1IDIuMjQgMi4xODRhLjc1Ljc1IDAgMCAxIC4yMTYuNjY0bC0uNTI4IDMuMDg0IDIuNzY5LTEuNDU2YS43NS43NSAwIDAgMSAuNjk4IDBsMi43NyAxLjQ1Ni0uNTMtMy4wODRhLjc1Ljc1IDAgMCAxIC4yMTYtLjY2NGwyLjI0LTIuMTgzLTMuMDk2LS40NWEuNzUuNzUgMCAwIDEtLjU2NC0uNDFMOCAyLjY5NFoiLz48L3N2Zz4=" />
+    <img alt="Telegram Channel" src="https://img.shields.io/github/stars/nykonhrytsyshyn?style=for-the-badge&color=151b23&labelColor=262c36&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVptMCAyLjQ0NUw2LjYxNSA1LjVhLjc1Ljc1IDAgMCAxLS41NjQuNDFsLTMuMDk3LjQ1IDIuMjQgMi4xODRhLjc1Ljc1IDAgMCAxIC4yMTYuNjY0bC0uNTI4IDMuMDg0IDIuNzY5LTEuNDU2YS43NS43NSAwIDAgMSAuNjk4IDBsMi43NyAxLjQ1Ni0uNTMtMy4wODRhLjc1Ljc1IDAgMCAxIC4yMTYtLjY2NGwyLjI0LTIuMTgzLTMuMDk2LS40NWEuNzUuNzUgMCAwIDEtLjU2NC0uNDFMOCAyLjY5NFoiLz48L3N2Zz4=" />
+  </picture>
   <!-- Profile Views Badge -->
   <a href="https://hits.sh/github.com/nykonhrytsyshyn/">
     <picture>
