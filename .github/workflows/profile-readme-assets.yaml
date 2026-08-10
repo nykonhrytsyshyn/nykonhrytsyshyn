@@ -6,7 +6,7 @@
 #                                                                              #
 # Key Specifications:                                                          #
 #   - scheduled:     Runs every 12 hours at minute 0                           #
-#   - output branch: 'output'                                                  #
+#   - output branch: 'main'                                                    #
 #   - output dir:    'assets/profile/'                                         #
 #   - output files:  'assets/profile/activity-graph.svg'                       #
 #                    'assets/profile/activity-graph-light.svg'                 #
@@ -16,6 +16,12 @@
 #                    'assets/profile/stats-light.svg'                          #
 #                    'assets/profile/streak-stats.svg'                         #
 #                    'assets/profile/streak-stats-light.svg'                   #
+#                                                                              #
+# Secrets:                                                                     #
+#   - GITHUB_TOKEN:  Used to push generated files to the output branch. This   #
+#                    token is automatically provided by GitHub Actions.        #
+#   - STATS_PAT:     Personal Access Token with 'user' and 'repo' scopes. This #
+#                    token is required for the actions that generate stats.    #
 #                                                                              #
 # Actions:                                                                     #
 #   - https://github.com/Platane/snk                                           #
