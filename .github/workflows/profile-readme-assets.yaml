@@ -116,7 +116,7 @@ jobs:
           path: "assets/profile/streak-stats-light.svg"
 
       # Publish
-      - name: "Run: Push generated assets to output branch"
+      - name: "Run: Commit and push generated assets to 'main' branch"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -124,19 +124,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Temporary saving of generated assets to avoid their loss when switching branches
-          mkdir -p /tmp/profile-assets
-          cp -r assets/profile/* /tmp/profile-assets/
-
-          # Switching to the output branch (or creating it if it doesn't exist)
-          git fetch origin output:output || true
-          git checkout output || git checkout -b output
-
-          # Restoring files to the target directory assets/profile/
-          mkdir -p assets/profile
-          cp -r /tmp/profile-assets/* assets/profile/
-
-          # Staging changes
+          # Index only the changes in the 'assets/profile/' directory
           git add assets/profile/
 
           # Checking for changes before committing
@@ -144,5 +132,5 @@ jobs:
             echo "No changes in generated profile assets. Skipping commit."
           else
             git commit -m "[skip ci] Auto-generate readme profile assets"
-            git push origin output
+            git push origin HEAD:main
           fi
