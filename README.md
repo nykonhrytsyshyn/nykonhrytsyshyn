@@ -18,12 +18,10 @@
 
 <div align="center">
   <!-- Followers Badge -->
-  <a href="?tab=followers">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=d8dde2&labelColor=606264&logoColor=fff&logo=githubsponsors" />
-      <img alt="Followers" src="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=githubsponsors" />
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=d8dde2&labelColor=606264&logoColor=fff&logo=githubsponsors" />
+    <img alt="Followers" src="https://img.shields.io/github/followers/nykonhrytsyshyn?style=for-the-badge&color=151b23&labelColor=262c36&logoColor=fff&logo=githubsponsors" />
+  </picture>
   <!-- WakaTime Badge -->
   <a href="https://nykon.me/wakatime">
     <picture>
@@ -55,17 +53,17 @@
 </div>
 
 <div align="center">
+  <!-- Total Statistics -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stats-light.svg" />
+    <img alt="Total Stats" src="./assets/profile/stats.svg" width="49%" />
+  </picture>
+  <!-- Streak Statistics -->
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/streak-stats-light.svg" />
+    <img alt="Streak Stats" src="./assets/profile/streak-stats.svg" width="49%" />
+  </picture>
   <a href="#js-contribution-activity">
-    <!-- Total Statistics -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stats-light.svg" />
-      <img alt="Total Stats" src="./assets/profile/stats.svg" width="49%" />
-    </picture>
-    <!-- Streak Statistics -->
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/streak-stats-light.svg" />
-      <img alt="Streak Stats" src="./assets/profile/streak-stats.svg" width="49%" />
-    </picture>
     <!-- Activity Graph -->
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="./assets/profile/activity-graph-light.svg" />
