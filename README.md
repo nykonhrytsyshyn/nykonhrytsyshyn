@@ -4,7 +4,7 @@
   <!-- Banner -->
   <a href="https://nykon.me">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/profile/banner_light.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile/banner-light.svg" />
       <img alt="Banner" src="./assets/profile/banner.svg" width="100%" />
     </picture>
   </a>
@@ -47,9 +47,26 @@
 <div align="center">
   <!-- Info Columns -->
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/info_columns_light.svg" />
-    <img alt="Info" src="./assets/profile/info_columns.svg" width="100%" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile/info-columns-light.svg" />
+    <img alt="Info" src="assets/profile/info-columns.svg" width="100%" />
   </picture>
+</div>
+
+<div align="center">
+  <!-- LinkedIn Social Card -->
+  <a href="https://nykon.me/linkedin">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-linkedin-light.svg" />
+      <img alt="LinkedIn" src="assets/profile/card-linkedin.svg" width="49%" />
+    </picture>
+  </a>
+  <!-- Telegram Social Card -->
+  <a href="https://nykon.me/telegram">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-telegram-light.svg" />
+      <img alt="Telegram" src="assets/profile/card-telegram.svg" width="49%" />
+    </picture>
+  </a>
 </div>
 
 <div align="center">
@@ -80,7 +97,7 @@
 <div align="center">
   <!-- Tech Stack -->
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack_light.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack-light.svg" />
     <img alt="Tech Stack" src="./assets/profile/stack.svg" width="100%" />
   </picture>
 </div>
