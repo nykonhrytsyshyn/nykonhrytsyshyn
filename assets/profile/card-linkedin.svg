@@ -3,7 +3,7 @@
     :root {
       --color-bg: #39363f1e;
       --color-border: #3d444d78;
-      --color-text: #9f9f9f;
+      --color-text: #fff;
       --color-icon: #8b949e;
     }
 
