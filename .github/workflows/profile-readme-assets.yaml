@@ -1,0 +1,125 @@
+# ============================================================================ #
+#                       Profile Readme Assets Generation                       #
+# ============================================================================ #
+# This workflow generates the activity graph, snake animation, profile stats,  #
+# and streak stats, then pushes all generated files to the output branch.      #
+#                                                                              #
+# Key Specifications:                                                          #
+#   - scheduled:     Runs every 12 hours at minute 0                           #
+#   - output branch: 'output'                                                  #
+#   - output files:  'dist/activity-graph.svg'                                 #
+#                    'dist/activity-graph-light.svg'                           #
+#                    'dist/contr-grid-snake.svg'                               #
+#                    'dist/contr-grid-snake-light.svg'                         #
+#                    'dist/stats.svg'                                          #
+#                    'dist/stats-light.svg'                                    #
+#                    'dist/streak-stats.svg'                                   #
+#                    'dist/streak-stats-light.svg'                             #
+#                                                                              #
+# Actions:                                                                     #
+#   - https://github.com/maurodesouza/github-readme-activity-graph-action      #
+#   - https://github.com/Platane/snk                                           #
+#   - https://github.com/stats-organization/github-readme-stats-action         #
+#   - https://github.com/DenverCoder1/github-readme-streak-stats               #
+# ============================================================================ #
+
+name: "Profile Readme Assets"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  schedule:
+    # Runs every 12 hours at minute 0
+    - cron: "0 */12 * * *"
+
+# Prevents overlapping runs of this workflow itself
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: false
+
+jobs:
+  # Generate svg assets for profile readme
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: "Setup: Checkout repository"
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 1
+
+      # Activity graph
+      - name: "Run: Generate activity graph (dark)"
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: "bg_color=39363f1e&color=fff&line=d9d9d9&point=fff&border_color=3d444db3&radius=20&hide_title=true"
+          output_path: "dist/activity-graph.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Run: Generate activity graph (light)"
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: "bg_color=c5c5c91e&color=363636&line=646464&point=363636&border_color=d1d9e0b3&radius=20&hide_title=true"
+          output_path: "dist/activity-graph-light.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Snake animation
+      - name: "Run: Generate snake animation"
+        uses: Platane/snk@v3.4.1
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contr-grid-snake.svg?color_snake=#ffffff&color_dots=#161b22,#4d525a,#6e7681,#8b949e,#f0f6fc
+            dist/contr-grid-snake-light.svg?color_snake=#000000&color_dots=#d8dde2,#787b7e,#606264,#48494b,#303132
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Profile stats
+      - name: "Run: Generate profile stats (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&include_all_commits=true&icon_color=fff&border_color=3d444d78&show_icons=true&theme=dark&border_radius=15&bg_color=39363f1e&title_color=fff&hide_title=true&line_height=28"
+          path: "dist/stats.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Run: Generate profile stats (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&include_all_commits=true&icon_color=363636&border_color=dbe3eab3&show_icons=true&border_radius=15&bg_color=c5c5c91e&title_color=363636&hide_title=true&line_height=28"
+          path: "dist/stats-light.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Streak stats
+      - name: "Run: Generate streak stats (dark)"
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: "user=${{ github.repository_owner }}&theme=dark&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=39363f1e"
+          path: "dist/streak-stats.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Run: Generate streak stats (light)"
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: "user=${{ github.repository_owner }}&border=dbe3eab3&border_radius=15&ring=363636&fire=363636&currStreakNum=363636&stroke=363636&sideNums=363636&currStreakLabel=363636&background=c5c5c91e"
+          path: "dist/streak-stats-light.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Publish
+      - name: "Run: Push generated files to output branch"
+        uses: crazy-max/ghaction-github-pages@v4.2.0
+        with:
+          target_branch: "output"
+          build_dir: "dist"
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
