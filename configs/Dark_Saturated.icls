@@ -6,8 +6,8 @@
   <colors>
     <option name="CARET_COLOR" value="F7F7F7" />
     <option name="CARET_ROW_COLOR" value="323335" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="232425" />
-    <option name="GUTTER_BACKGROUND" value="232425" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="191a1c" />
+    <option name="GUTTER_BACKGROUND" value="191a1c" />
     <option name="SELECTED_TEARLINE_COLOR" value="5E6063" />
     <option name="TEARLINE_COLOR" value="454749" />
   </colors>
@@ -20,7 +20,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="cfd2d5" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
