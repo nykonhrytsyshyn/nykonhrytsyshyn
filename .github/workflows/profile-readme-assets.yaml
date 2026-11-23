@@ -64,7 +64,7 @@ jobs:
 
       # Snake animation
       - name: "Run: Generate snake animation"
-        uses: Platane/snk@v3.4.1
+        uses: Platane/snk@v3.5.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_user_name: ${{ github.repository_owner }}
@@ -74,7 +74,7 @@ jobs:
 
       # Activity graph
       - name: "Run: Generate activity graph (dark)"
-        uses: maurodesouza/github-readme-activity-graph-action@v1
+        uses: maurodesouza/github-readme-activity-graph-action@v1.0.0
         with:
           token: ${{ secrets.STATS_PAT }}
           username: ${{ github.repository_owner }}
@@ -82,7 +82,7 @@ jobs:
           output_path: "assets/profile/activity-graph.svg"
 
       - name: "Run: Generate activity graph (light)"
-        uses: maurodesouza/github-readme-activity-graph-action@v1
+        uses: maurodesouza/github-readme-activity-graph-action@v1.0.0
         with:
           token: ${{ secrets.STATS_PAT }}
           username: ${{ github.repository_owner }}
@@ -91,7 +91,7 @@ jobs:
 
       # Profile stats
       - name: "Run: Generate profile stats (dark)"
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@v2.1.0
         with:
           token: ${{ secrets.STATS_PAT }}
           card: stats
@@ -99,7 +99,7 @@ jobs:
           path: "assets/profile/stats.svg"
 
       - name: "Run: Generate profile stats (light)"
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@v2.1.0
         with:
           token: ${{ secrets.STATS_PAT }}
           card: stats
@@ -108,14 +108,14 @@ jobs:
 
       # Streak stats
       - name: "Run: Generate streak stats (dark)"
-        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        uses: DenverCoder1/github-readme-streak-stats@v1.8.2
         with:
           token: ${{ secrets.STATS_PAT }}
           options: "user=${{ github.repository_owner }}&theme=dark&border=3d444d78&border_radius=15&ring=fff&fire=fff&currStreakNum=fff&stroke=fff&sideNums=fff&currStreakLabel=fff&background=39363f1e"
           path: "assets/profile/streak-stats.svg"
 
       - name: "Run: Generate streak stats (light)"
-        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        uses: DenverCoder1/github-readme-streak-stats@v1.8.2
         with:
           token: ${{ secrets.STATS_PAT }}
           options: "user=${{ github.repository_owner }}&border=dbe3eab3&border_radius=15&ring=363636&fire=363636&currStreakNum=363636&stroke=363636&sideNums=363636&currStreakLabel=363636&background=c5c5c91e"
